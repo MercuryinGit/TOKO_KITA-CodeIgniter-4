@@ -16,3 +16,13 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+# CodeIgniter runtime files
+/writable/*
+!/writable/index.html
+!/writable/.htaccess
+!/writable/cache/index.html
+!/writable/debugbar/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/uploads/index.html
